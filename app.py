@@ -1,4 +1,7 @@
 import streamlit as st
+import scipy.stats
+import time
+
 
 st.header('Lanzar una moneda')
 chart = st.line_chart([0.5])
